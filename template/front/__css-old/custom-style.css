@@ -1,0 +1,92 @@
+/*
+Item: Active Matrimonial CMS
+Author: Active IT zone
+URL: https://www.activeitzone.com
+*/
+.navbar-brand {
+	display: inline-block;
+	padding-top: 0px; 
+	padding-bottom: 0px; 
+	margin-right: 0px; 
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+}
+.listing-image {
+	height: 170px; width: 120px;
+}
+.home-p-member a.btn.btn-styled.btn-xs.btn-base-1.z-depth-2-bottom.mt-2.text-white:focus,
+.home-p-member a.btn.btn-styled.btn-xs.btn-base-1.z-depth-2-bottom.mt-2.text-white:hover {
+    color: inherit;
+    text-decoration: none;
+    background: #24242D;
+    border: 1px solid #24242D;
+}
+.swiper-container {
+    height: 100%;
+    padding: 0px 10px;
+    margin: 0 -10px;
+}
+.sticky-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+.sticky-header .navbar.bg-default {
+    background: #fffffff3;
+    border-bottom: 1px solid #f1f1f1f3;
+}
+
+.sticky-header + .sticky-content {
+	padding-top: 114px;
+}
+.my_class {
+        display: inline-block;
+        margin: 10px auto;
+        font-size:20px;
+        color:#fff;
+    }
+    .dropdown--style-2 .dropdown-icon i{color:#e91e63;}
+/* .light-gallery{max-height: 0;transition: ease all 1s;overflow: hidden;}
+.open.light-gallery{max-height:100px;} */
+    h3.heading.text-uppercase.heading-6.strong-400.profile-occupation.mt-3 {cursor: pointer;}
+.online, .offline {
+        border-radius: 5px;
+        padding: 5px 11px;
+        font-size: 12px;
+        margin: 5px auto;
+        display: inline-block;
+        text-transform: uppercase;
+        width: 70px;
+        float:right;
+        text-align: center;
+        cursor: pointer;
+}
+.online, .onlineDot{
+    background: green;
+}.onlineDot{
+    background: green;
+}
+.offline {
+    background: #fff;
+    font-weight: 700;
+    color: #000;
+    border-radius: 2px;
+}
+.offlineDot {
+        background: rgb(233, 30, 99)
+}
+.contacts-list-name{
+        position: relative;
+}
+.onlineDot, .offlineDot {
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: calc(50% - 5px);
+        right: 0px;
+        border-radius: 50%;
+    }
+a.btn.btn-styled.btn-sm.btn-white{color:#000}
+a.btn.btn-styled.btn-sm.btn-white:hover{color:#fff}
